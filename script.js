@@ -25,7 +25,7 @@ document.querySelector('#year').textContent = String(new Date().getFullYear());
 
 // One address for every contact action. Update this and the HTML email links
 // together if the team moves to a dedicated domain.
-const contactEmail = 'valerio.barabino@edu.unige.it';
+const contactEmail = 'hybrain.tech@gmail.com';
 document.querySelector('#contact-form').addEventListener('submit', event => {
   event.preventDefault();
   const interest = document.querySelector('#interest').value;
